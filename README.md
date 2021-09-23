@@ -72,16 +72,13 @@ We decided to use this pattern since we need to have some basic class for handli
 1. Class diagram for the server (with the neural network)
 ![Class diagram]( app.svg "Class diagram")
    
-2. Low fidelity prototype
-<br />
+2. Low fidelity prototype <br />
 ![Low fidelity prototype](prototype.jpg "Low fidelity prototype")
    
-3. Use Case Diagram
-<br />
+3. Use Case Diagram <br />
 ![Use Case Diagram](use_case_diagram.png "Use Case Diagram")
    
-4. Sequence Diagram
-<br />
+4. Sequence Diagram <br />
 ![Sequence Diagram](sequence_diagram.png "Sequence Diagram")
    
 ### Telegram bot prototype
