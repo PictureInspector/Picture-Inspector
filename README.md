@@ -23,7 +23,10 @@ Available through either the telegram bot or the iOS app.
 - __Image caption__
     Image captions, also known as cutlines, are a few lines of text used to explain and elaborate on published photographs
   
-## Design Patterns 
+
+## Design Documentation
+
+### Design Patterns 
 1. Front Controller
 ```python
 from flask_restful import Resource
@@ -64,6 +67,26 @@ class Picture(Resource):
         return response, 200
 ```
 We decided to use this pattern since we need to have some basic class for handling API requests
+
+### UML diagrams
+1. Class diagram for the server (with the neural network)
+![Class diagram]( app.svg "Class diagram")
+   
+2. Low fidelity prototype
+![Low fidelity prototype](prototype.jpg "Low fidelity prototype")
+   
+3. Use Case Diagram
+![Use Case Diagram](use_case_diagram.png "Use Case Diagram")
+   
+4. Sequence Diagram
+![Sequence Diagram](sequence_diagram.png "Sequence Diagram")
+   
+### Telegram bot prototype
+![Telegram bot prototype, part 1](bot_prototype1.png "Telegram bot prototype, part 1")
+![Telegram bot prototype, part 1](bot_prototype2.png "Telegram bot prototype, part 1")
+
+
+
 ## Repositories
 The project consists of several separate repositories that contain the code for different modules:
 1. Picture-Inspector-server
