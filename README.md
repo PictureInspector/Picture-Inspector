@@ -22,7 +22,48 @@ Available through either the telegram bot or the iOS app.
     Software intermediary that allows two applications to talk to each other.
 - __Image caption__
     Image captions, also known as cutlines, are a few lines of text used to explain and elaborate on published photographs
+  
+## Design Patterns 
+1. Front Controller
+```python
+from flask_restful import Resource
 
+
+class Picture(Resource):
+
+    _IMAGE_ARG: str = 'image'
+
+    def get(self) -> Tuple[any, int]:
+        # TODO: Return caption
+        caption = 'GET request has not been implemented yet :)'
+        return caption, 200
+
+    def post(self) -> Optional[Tuple[any, int]]:
+
+        parser = RequestParser()
+        parser.add_argument(
+            Picture._IMAGE_ARG,
+            type=FileStorage,
+            location='files',
+            required=True)
+
+        args = parser.parse_args()
+
+        image_file: FileStorage = args[Picture._IMAGE_ARG]
+        image_name, image_path = save_image(file=image_file)
+
+        caption = retrieve_caption(image_path=image_path)
+
+        response = {
+            'imageURL': image_name,
+            'caption': caption
+        }
+
+        print(response)
+
+        return response, 200
+```
+We decided to use this pattern since we need to have some basic class for handling API requests
 ## Repositories
 The project consists of several separate repositories that contain the code for different modules:
 1. Picture-Inspector-server
