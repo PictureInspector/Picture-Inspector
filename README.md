@@ -89,6 +89,18 @@ We decided to use this pattern since we need to have some basic class for handli
 4. Sequence Diagram <br />
 ![Sequence Diagram](sequence_diagram.png "Sequence Diagram")
    
+### SOLID Principles
+- __Single responsibility principle__ <br />
+	As we can see from the UML diagram, on the server-side we have 2 supportive neural networks: Encoder and Decoder. And main neural network Model has these two neural nets for working.
+- __Open–closed principle__ <br />
+	Model is a closed class. It can be retrained based on a new dataset, which we give. But it can be extended for the new neural networks or to an improved one.
+- __Liskov substitution principle__ <br />
+	All neural networks take images and return a caption. No matter what goes on inside. Therefore a new neural network inherited on Module won’t give errors.
+- __Interface segregation principle__ <br />
+	Our project is not so big to have this principle. We don’t have many classes, each of which needs its own interface.
+- __Dependency inversion principle__ <br />
+	Not used.
+   
 ### Telegram bot prototype
 ![Telegram bot prototype, part 1](bot_prototype1.png "Telegram bot prototype, part 1")
 ![Telegram bot prototype, part 1](bot_prototype2.png "Telegram bot prototype, part 1")
