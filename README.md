@@ -26,7 +26,15 @@ Available through either the telegram bot or the iOS app.
 
 ## Design Documentation
 
+We decided to use Flask framework to create a server working with the bot and the application.
+Beside the fact that our team already acquainted with this framework, it allows us to use HTTP protocol to serve requests making the system modular.
+Flask is a framework that already has decent inner architecture obeying its own design pattern and principles.
+
 ### Design Patterns 
+
+As the users of Flask framework, we don't have to care much about the architecture of the server software.
+Nevertheless, we can present some design patterns that we had to use. 
+
 1. Front Controller
 ```python
 from flask_restful import Resource
