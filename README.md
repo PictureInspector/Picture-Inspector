@@ -80,7 +80,7 @@ We decided to use this pattern since we need to have some basic class for handli
 1. Class diagram for the server (with the neural network)
 ![Class diagram]( app.svg "Class diagram")
    
-2. Low fidelity prototype <br />
+2. Telegram bot flowchart <br />
 ![Low fidelity prototype](prototype.jpg "Low fidelity prototype")
    
 3. Use Case Diagram <br />
@@ -93,6 +93,10 @@ We decided to use this pattern since we need to have some basic class for handli
 ![Telegram bot prototype, part 1](bot_prototype1.png "Telegram bot prototype, part 1")
 ![Telegram bot prototype, part 1](bot_prototype2.png "Telegram bot prototype, part 1")
 
+### iOS application prototype
+![iOS application prototype, part 1](iOS_prototype_1.jpg "iOS application prototype, part 1")
+![iOS application prototype, part 1](iOS_prototype_2.jpg "iOS application prototype, part 1")
+![iOS application prototype, part 1](iOS_prototype_3.jpg "iOS application prototype, part 1")
 
 
 ## Repositories
