@@ -104,7 +104,7 @@ We decided to use this pattern since we need to have some basic class for handli
 ### System Architecture
 The service has a client-server architecture. Here are the different views:  
 
-1. Static View
+1. Static View <br />
 ![Static View](StaticView.svg)
 
 2. Dynamic View (UML Components Diagram)
