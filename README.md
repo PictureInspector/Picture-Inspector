@@ -1,3 +1,5 @@
+![logo]( pictex.png "logo")
+
 # PicTex
 ## Description
 Are you an English learner? Want to give impressive descriptions of the pictures? 
