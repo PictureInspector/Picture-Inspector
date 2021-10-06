@@ -109,7 +109,7 @@ The service has a client-server architecture. Here are the different views:
 ![Dynamic View](components_diagram.svg)
 
 3. Allocation View (UML Deployment Diagram)
-![Allocation View](DeploymentDiagram.svg)
+![Allocation View](deployment_diagram.svg)
    
 ### Telegram bot prototype
 ![Telegram bot prototype, part 1](bot_prototype1.png "Telegram bot prototype, part 1")
