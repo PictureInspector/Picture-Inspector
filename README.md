@@ -106,7 +106,7 @@ The service has a client-server architecture. Here are the different views:
 ![Static View](static_view.svg)
 
 2. Dynamic View (UML Components Diagram)
-![Dynamic View](ComponentsDiagram.svg)
+![Dynamic View](components_diagram.svg)
 
 3. Allocation View (UML Deployment Diagram)
 ![Allocation View](DeploymentDiagram.svg)
