@@ -103,7 +103,7 @@ If you have problems with reading any UML diagram, open it separately
 The service has a client-server architecture. Here are the different views:  
 
 1. Static View <br />
-![Static View](StaticView.svg)
+![Static View](static_view.svg)
 
 2. Dynamic View (UML Components Diagram)
 ![Dynamic View](ComponentsDiagram.svg)
