@@ -26,8 +26,94 @@ Available through either the telegram bot.
 TODO
 
 ## Installation guide
-TODO
-  
+
+### Python installation
+
+To run this server you need to install [Python3+](https://realpython.com/installing-python/).
+And [pip](https://pip.pypa.io/en/stable/installation/).
+
+### Server installation
+
+Clone server repository from https://github.com/PictureInspector/Picture-Inspector-server
+
+#### Create virtual environment
+
+You need to create new virtual environment. Type following commands:
+```shell script
+> python3 -m venv env_name
+> source env_name/bin/activate
+```
+
+#### Install libraries and weights
+
+Install all needed libraries using this command:
+```shell script
+> pip install -r /path/to/server/requirements.txt
+```
+Install the weights for neural network and dataset using this [link](https://drive.google.com/file/d/1mj239x6k7s1S5kljo-3hoyXEro5kKfRE/view?usp=sharing). And extract it to the following path:
+```shell script
+~/app/data/
+```
+
+#### Set environment variables
+
+Type following commands to set environment variables
+
+##### Windows
+
+```shell
+> set FLASK_APP=/path/to/server/app.py
+> set FLASK_ENV=/path/to/server/development
+```
+
+##### Linux
+
+```shell
+> export FLASK_APP=/path/to/server/app.py
+> export FLASK_ENV=/path/to/server/development
+```
+
+#### Running server
+
+Type following command to run the server:
+```shell script
+> python3 -m flask run --host=0.0.0.0
+```
+
+### Telegram bot installation
+ 
+Clone telegram bot repository from https://github.com/PictureInspector/picture-inspector-bot
+
+#### Libraries installation
+Install all needed libraries using this command:
+```shell script
+> pip3 install -r /path/to/telegram-bot/requirements.txt
+```
+
+#### Setting up telegram bot token and server url
+
+Create file named .env in project directory and write telegram bot token and server url. Your .env file should be the following:
+
+```text
+TG_TOKEN=Your telegram bot token
+SERVER_ADDR=Url to server with neural network
+```
+
+Example of .env file:
+
+```text
+TG_TOKEN=0000000000:AAAaaaaaaaaaaa-AAAAAA-AAAaaaaaaaaa
+SERVER_ADDR=https://127.0.0.1:5000/api/v1/pictures
+```
+
+#### Running telegram bot
+
+Write following command
+
+```shell script
+> python3 /path/to/telegram-bot/main.py
+```
+
 ## Telegram bot prototype
 ![Telegram bot prototype, part 1](bot_prototype1.png "Telegram bot prototype, part 1")
 ![Telegram bot prototype, part 1](bot_prototype2.png "Telegram bot prototype, part 1")
