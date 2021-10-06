@@ -85,7 +85,7 @@ If you have problems with reading any UML diagram, open it separately
 ![Use Case Diagram](use_case_diagram.svg "Use Case Diagram")
    
 4. Sequence Diagram <br />
-![Sequence Diagram](sequence_diagram.png "Sequence Diagram")
+![Sequence Diagram](sequence_diagram.svg "Sequence Diagram")
    
 ### SOLID Principles
 - __Single responsibility principle__ <br />
