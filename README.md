@@ -22,6 +22,39 @@ Available through either the telegram bot.
 - __Image caption__
     Image captions, also known as cutlines, are a few lines of text used to explain and elaborate on published photographs
   
+## Demo
+TODO
+
+## Installation guide
+TODO
+  
+## Telegram bot prototype
+![Telegram bot prototype, part 1](bot_prototype1.png "Telegram bot prototype, part 1")
+![Telegram bot prototype, part 1](bot_prototype2.png "Telegram bot prototype, part 1")
+
+## Repositories
+The project consists of several repositories that contain the code for different modules:
+1. Picture-Inspector-server
+https://github.com/PictureInspector/Picture-Inspector-server
+2. pictureinspector-bot
+https://github.com/PictureInspector/picture-inspector-bot
+   
+We did it this way because the server with the neural network and the bot are logically independent parts of the system.
+
+## RUP Artifacts
+The link to the Google Doc
+https://docs.google.com/document/d/1JceCxH50G0CmYeWyNwu0b_wnpNrjkoyM/edit?usp=sharing&ouid=113379756477507623253&rtpof=true&sd=true
+
+## How to contribute
+If you find any bug or have suggestion on improvement, you can:
+1. Fork the server or the bot repository, make the changes and then create a pull request
+2. Open the issue with the description of the bug/suggestion
+
+## Authors
+Roman Nabiullin  
+Dinislam Gabitov  
+Andrey Palaev  
+Georgy Andryushchenko  
 
 ## Design Documentation
 
@@ -112,25 +145,3 @@ The service has a client-server architecture. Here are the different views:
 
 3. Allocation View (UML Deployment Diagram)
 ![Allocation View](deployment_diagram.svg)
-   
-### Telegram bot prototype
-![Telegram bot prototype, part 1](bot_prototype1.png "Telegram bot prototype, part 1")
-![Telegram bot prototype, part 1](bot_prototype2.png "Telegram bot prototype, part 1")
-
-
-## Repositories
-The project consists of several separate repositories that contain the code for different modules:
-1. Picture-Inspector-server
-https://github.com/PictureInspector/Picture-Inspector-server
-2. pictureinspector-bot
-https://github.com/PictureInspector/picture-inspector-bot
-
-## RUP Artifacts
-The link to the Google Doc
-https://docs.google.com/document/d/1JceCxH50G0CmYeWyNwu0b_wnpNrjkoyM/edit?usp=sharing&ouid=113379756477507623253&rtpof=true&sd=true
-
-## Authors
-Roman Nabiullin  
-Dinislam Gabitov  
-Andrey Palaev  
-Georgy Andryushchenko  
