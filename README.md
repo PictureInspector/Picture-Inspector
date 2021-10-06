@@ -1,5 +1,3 @@
-![logo]( pictex.png "logo")
-
 # PicTex
 ## Description
 Are you an English learner? Want to give impressive descriptions of the pictures? 
@@ -76,6 +74,7 @@ class Picture(Resource):
 We decided to use this pattern since we need to have some basic class for handling API requests
 
 ### UML diagrams
+If you have problems with reading any UML diagram, open it separately
 1. Class diagram for the server (with the neural network)
 ![Class diagram]( app.svg "Class diagram")
    
@@ -83,7 +82,7 @@ We decided to use this pattern since we need to have some basic class for handli
 ![Low fidelity prototype](prototype.jpg "Low fidelity prototype")
    
 3. Use Case Diagram <br />
-![Use Case Diagram](use_case_diagram.png "Use Case Diagram")
+![Use Case Diagram](use_case_diagram.svg "Use Case Diagram")
    
 4. Sequence Diagram <br />
 ![Sequence Diagram](sequence_diagram.png "Sequence Diagram")
