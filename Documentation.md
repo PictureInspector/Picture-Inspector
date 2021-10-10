@@ -1,5 +1,7 @@
 ## Design Documentation
 
+We made some architectural decisions taking into account the iOS application. However, it is not implemented yet.
+
 We decided to use Flask framework to create a server working with the bot and the application.
 Beside the fact that our team already acquainted with this framework, it allows us to use HTTP protocol to serve requests making the system modular.
 Flask is a framework that already has decent inner architecture obeying its own design pattern and principles.
