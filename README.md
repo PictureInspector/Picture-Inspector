@@ -25,6 +25,14 @@ Available through either the telegram bot.
 ## Demo
 TODO
 
+## Telegram bot prototype
+1. First, you need to start the bot:
+![Telegram bot prototype, part 1](bot_prototype1.png "Telegram bot prototype, part 1")
+2. Then, you send the image and get the caption for it: 
+![Telegram bot prototype, part 2](bot_prototype2.png "Telegram bot prototype, part 2")
+3. If you want, you can give the feedback depending on whether you like the caption or not:
+![Telegram bot prototype, part 3](bot_prototype3.png "Telegram bot prototype, part 3")
+
 ## Installation guide
 
 ### Python installation
@@ -113,10 +121,6 @@ Write following command
 ```shell script
 > python3 /path/to/telegram-bot/main.py
 ```
-
-## Telegram bot prototype
-![Telegram bot prototype, part 1](bot_prototype1.png "Telegram bot prototype, part 1")
-![Telegram bot prototype, part 1](bot_prototype2.png "Telegram bot prototype, part 1")
 
 ## Repositories
 The project consists of several repositories that contain the code for different modules:
