@@ -1,6 +1,22 @@
 ![logo](pictex.png "logo")
 
 # PicTex
+## Table of content
+- [Table of content](#table-of-content)
+- [Description](#description)
+- [Glossary](#glossary)
+- [Demo](#demo)
+- [Telegram bot prototype](#telegram-bot-prototype)
+- [Installation guide](#installation-guide)
+  - [Python installation](#python-installation)
+  - [Server installation](#server-installation)
+  - [Telegram bot installation](#telegram-bot-installation)
+- [Repositories](#repositories)
+- [Glossary](#glossary)
+- [RUP Artifacts](#rup-artifacts)
+- [Design documentation](#design-documentation)
+- [How to contribute](#how-to-contribute)
+- [Authors](#authors)
 ## Description
 Are you an English learner? Want to give impressive descriptions of the pictures? 
 PicTex is a service that provides you generated descriptions of the images that you send!
