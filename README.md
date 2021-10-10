@@ -23,7 +23,7 @@ Available through either the telegram bot.
     Image captions, also known as cutlines, are a few lines of text used to explain and elaborate on published photographs
   
 ## Demo
-TODO
+![Telegram bot demo](Demo.gif "Telegram bot demo")
 
 ## Telegram bot prototype
 1. First, you need to start the bot:
