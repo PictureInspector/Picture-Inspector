@@ -57,8 +57,8 @@ If you have problems with reading any UML diagram, open it separately
 1. Class diagram for the server (with the neural network)
 ![Class diagram]( app.svg "Class diagram")
    
-2. Telegram bot flowchart <br />
-![Low fidelity prototype](prototype.jpg "Low fidelity prototype")
+[//]: # ( 2. Telegram bot flowchart <br />
+![Low fidelity prototype](prototype.jpg "Low fidelity prototype") ) 
    
 3. Use Case Diagram <br />
 ![Use Case Diagram](use_case_diagram.svg "Use Case Diagram")
